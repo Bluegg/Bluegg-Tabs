@@ -4,6 +4,11 @@ Simple tabs
 
 ## Usage
 
+```shell
+# install
+npm install --save bluegg/bluegg-tabs
+```
+
 ```js
 // import - common.js
 var Tabs = require ('bluegg-tabs');
