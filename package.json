@@ -1,13 +1,19 @@
 {
-	"name": "Bluegg-Tabs",
-	"version": "0.0.2",
-	"description": "Simple Tabs built with accessibility in mind. Forked from http://codepen.io/stowball/pen/xVWwWe/",
-	"main": "./distribution/index.js",
-	"scripts": {
-		"build": "babel src --presets babel-preset-es2015 --out-dir dist",
-		"prepublish": "npm run build"
-	},
-	"keywords": ["tabs"],
-	"author": "@matthewbeta",
-	"license": "ISC"
+  "name": "bluegg-tabs",
+  "version": "0.0.3",
+  "description": "Simple Tabs built with accessibility in mind. Forked from http://codepen.io/stowball/pen/xVWwWe/",
+  "main": "./distribution/index.js",
+  "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "tabs"
+  ],
+  "author": "@matthewbeta",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
 }
