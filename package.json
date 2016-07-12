@@ -10,7 +10,7 @@
   "keywords": [
     "tabs"
   ],
-  "author": "@matthewbeta",
+  "author": "@bluegg",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.10.1",
