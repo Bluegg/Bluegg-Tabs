@@ -13,11 +13,14 @@ npm install --save bluegg/bluegg-tabs
 // import - common.js
 var Tabs = require ('bluegg-tabs');
 
-// Get your Tabs element
-var myTabEl = document.querySelectorAll('.tabs')
+// Get your Tab elements
+var alltabs = document.querySelectorAll('.js-tabs');
 
 // Init the tabs
-new Tabs(myTabEl);
+[].forEach.call(alltabs, function(item, i) {
+	new Tabs(alltabs[i]);
+});
+
 ```
 
 [Example of markup and styling required](https://codepen.io/matthewbeta/pen/gMYKNx?editors=0010)
