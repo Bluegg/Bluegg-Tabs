@@ -1,6 +1,6 @@
 {
   "name": "bluegg-tabs",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Simple Tabs built with accessibility in mind. Forked from http://codepen.io/stowball/pen/xVWwWe/",
   "main": "./distribution/index.js",
   "scripts": {
