@@ -2,6 +2,7 @@
   "name": "bluegg-tabs",
   "version": "0.0.1",
   "description": "Simple Tabs built with accessibility in mind. Forked from http://codepen.io/stowball/pen/xVWwWe/",
+	"repository": "bluegg/bluegg-tabs",
   "main": "./dist/index.js",
   "scripts": {
     "build": "node_modules/.bin/babel --plugins add-module-exports src/index.js > dist/index.js",

@@ -6,7 +6,7 @@ Simple tabs
 
 ```shell
 # install
-npm install --save bluegg/bluegg-tabs
+npm install --save bluegg-tabs
 ```
 
 ```js
