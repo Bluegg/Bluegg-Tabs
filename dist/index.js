@@ -171,3 +171,5 @@ var Tabs = function () {
 }();
 
 exports.default = Tabs;
+module.exports = exports['default'];
+
